@@ -1,38 +1,52 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@500;800&display=swap');
+
+body {
+  font-family: "Open Sans", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.appTitle {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight:bolder;
+  color: #3a3c41
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.logo {
+  border-radius: 20px;
+  border: 2px solid #aeadb3
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.tabBtn {
+  background-color:#9a93b8 ;
+}
+
+.card-title {
+  font-size: 1.5rem;
   color: white;
+  background-color: rgba(0, 0, 0, 0.5);}
+  
+.tab-card-header {
+    background-color:#cac8df ;
+
+}
+.jumbotron {
+    background-image:linear-gradient( #e8e7f0,#dad9e4,#e5e4ee);
+  }
+.navbar {
+  background-image: linear-gradient(#e5e4ee, white);
 }
 
-.App-link {
-  color: #61dafb;
+.carouselButton {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  z-index:12;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.app-footer {
+  background-image: linear-gradient(white,#dad9e4);
+  height: 100px;
+  width: 100%;
+  margin-bottom:0;
+  margin-top:100px
 }
+
